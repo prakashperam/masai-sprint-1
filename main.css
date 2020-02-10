@@ -1,0 +1,154 @@
+body{
+    background-color: azure;
+}
+/* header */
+#navigation_menu{
+    float:left;
+}
+div img{
+    height: 150px;
+    width: auto;
+}
+ #navbar{
+    float:left;
+    /* margin-left: 50px; */
+    margin-left: 25%;
+ } 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color :white;
+    margin-top: 75px;;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block; 
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: grey;
+  }
+
+  /* header */
+
+  /* body */
+  #body_img img{
+        width: 1280px;
+        height: 400px;
+    }
+    #body_img{
+        clear: left;
+    }
+#battery_image{
+    width: 300px;
+    height:300px;
+    margin-left: 100px;
+}
+#mid_battery{
+    text-align: center;
+    float:left;
+}
+#mid_battery div{
+    float:left;
+}
+
+#yellow_one{
+    background-color: khaki;
+    float:left;
+    clear:left;
+    text-align:  center;
+    padding: 5px;   
+}
+
+/* technologies */
+
+#top_div{
+    display: flex;
+    flex-direction: row;
+    margin:10px;
+}
+#top_div div{
+    height: 300px;
+    width: 300px;
+    margin:5px;
+}
+#top_div h2{
+    text-align: center;
+    padding: 50px;
+}
+#first_tech{
+    background-image: url("assets/images/SlantedImages_LowVoltage.jpg");
+    
+
+}
+#second_tech{
+    background-image: url("assets/images/SlantedImages_Motorsports.jpg");
+    
+}
+#third_tech{
+    background-image: url("assets/images/SlantedImages_Commercial.jpg");
+    
+
+}
+#fourth_tech{
+    background-image: url("assets/images/SlantedImages_PlugIn.jpg");
+    
+}
+#top_div > div >div{
+    /* background-color: lightcoral; */
+    display: none;
+}
+#top_div>div>h2:hover + div {
+    background-color: rosybrown ;
+    display: block;
+    text-align: center;
+}
+/* #top_div>#second_tech>h2:hover + div {
+    background-color: rosybrown ;
+    display: block;
+    text-align: center;
+} */
+
+
+/* contact form */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(109, 83, 101);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #8277a1;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  /* @media  */
